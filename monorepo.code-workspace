@@ -1,6 +1,14 @@
 {
   "folders": [
     {
+      "name": "sub_app",
+      "path": "apps/sub_app/"
+    },
+    {
+      "name": "main",
+      "path": "apps/main/"
+    },
+    {
       "name": "monorepo",
       "path": "."
     }
@@ -28,12 +36,18 @@
       "**/bower_components": true
     },
     //
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+      80,
+      120
+    ],
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     //
-    "todo-tree.general.tags": ["TODO:", "FIXME:"],
+    "todo-tree.general.tags": [
+      "TODO:",
+      "FIXME:"
+    ],
     "todo-tree.highlights.defaultHighlight": {
       "gutterIcon": true
     },
